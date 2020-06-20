@@ -1,0 +1,44 @@
+.right{
+	background-color:#39784E;
+	width:25%;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 5px 4px 5px blue;
+}
+img{
+	width: 20%;
+	height: 30%;
+	border-radius:15%;
+	margin: 4%;
+}
+#main{
+	background-color: skyblue;
+	margin:10%;
+	/*padding: 5%;*/
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4%;
+}
+.left{
+	background-color: #39784E;
+	width:25%;
+	margin: 4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 5px 4px 5px blue;
+}
+body{
+	background-color:orange;
+}
+@media screen and (min-width:425px and max-width: 768px ){
+.main{
+	flex-direction: row-reverse;
+}
+.left{
+	width: #ddd;
+}
+.right{
+	width: #ddd;
+}
+}
